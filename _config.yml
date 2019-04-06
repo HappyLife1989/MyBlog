@@ -4,7 +4,7 @@
 
 # Site
 title: 浮生一日
-subtitle: 
+subtitle:
 description: 浮生一日，与时间作伴
 keywords:
 author: HappyLife
@@ -43,7 +43,7 @@ highlight:
   line_number: true
   auto_detect: false
   tab_replace:
-  
+
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
@@ -52,7 +52,7 @@ index_generator:
   path: ''
   per_page: 10
   order_by: -date
-  
+
 # Category & Tag
 default_category: uncategorized
 category_map:
@@ -81,3 +81,15 @@ deploy:
   type: git
   repo: https://github.com/HappyLife1989/HappyLife1989.github.io.git
   branch: master
+
+# add post views
+leancloud_visitors:
+  enable: true
+  app_id: HYP84wff9FzaOSOkeTo2cL8t-gzGzoHsz
+  app_key: pvxxFijqOVYkE9Iav0T5UQAQ
+
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
